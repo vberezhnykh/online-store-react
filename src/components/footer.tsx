@@ -1,5 +1,15 @@
 const Footer = () => {
-  return <footer>Template Footer</footer>;
+  return (
+    <footer>
+      <a
+        href="https://github.com/vberezhnykh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        vberezhnykh
+      </a>{" "}
+    </footer>
+  );
 };
 
 export default Footer;
